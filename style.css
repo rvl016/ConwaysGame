@@ -1,0 +1,42 @@
+h1.title {
+    color : #483D8B;
+    margin : auto;
+    text-align : center;
+    border : 6px;
+    border-color : #1E90FF;
+    border-bottom : solid;
+    background-color : #ef6c00;
+}
+
+
+#canvas table {
+    border-collapse : collapse; 
+    border : 1px solid #000; 
+    margin-left : auto;
+    margin-right : auto;
+}
+
+#canvas td {
+    width : 15px;
+    height : 15px;
+    /* border : 1px dashed #000; */
+    text-align : center;
+    vertical-align : center;
+    font-family : monospace; 
+    font-size : 15px; 
+    position : relative; 
+}
+
+#canvas .pixel-idx {
+    font-size : 10px;
+    display : inline-block;
+    position : absolute;
+    top : 2px;
+    right : 2px;
+    color : #999;
+}    
+ 
+#configButton {
+    margin : auto;
+    display : block;
+} 
