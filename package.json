@@ -1,0 +1,21 @@
+{
+  "name": "conways_game",
+  "version": "0.0.3",
+  "description": "Interactive Conway's Game",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "Game",
+    "Conway"
+  ],
+  "author": "Ravi do Valle Luz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
